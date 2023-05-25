@@ -157,12 +157,13 @@ overflow: hidden;
     align-items: center;
 }
 .knowledge__picture{
-    max-width: 200px;
+    max-width: 500px;
 }
-.knowledge__img{
+.knowledege__img{
     width: 100%;
     display: block;
+
 }
 .knowledge__subtittle{
-
+    line
 }
