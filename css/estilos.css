@@ -14,9 +14,9 @@ body{
     margin: 0 auto;
     overflow: hidden;
     padding: var(--padding-container);
-    align-items: center;
-
 }
+
+
 .hero{
     width: 100%;
     height: 100vh;
@@ -24,7 +24,7 @@ body{
     max-height: 800PX;
     position: relative;
     display: grid;
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: 120px 1fr;
     color: white;
     
 }
@@ -47,7 +47,9 @@ body{
     display: flex;
     align-items: center;
     transition: display 2s ;
-
+}
+.scrol{
+    height: 100px;
 }
 
 .nav__title{
@@ -56,12 +58,19 @@ body{
 }
 
 .nav__link{
-    margin: auto;
+    margin-left: auto;
     padding: 0;
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: max-content ;
-    gap: 2em;
+    gap: 3em;
+    transition: all 0.5 ease;
+}
+.nav__link a:hover{
+    padding: 5px 10px;
+    background: var(--color-title);
+    color: white;
+    border-radius: 15px;
 }
 .nav__items{
     list-style: none;
@@ -173,9 +182,6 @@ body{
     display: block;
 }
 
-.nav__title:hover{
-    transition: display 1s;
-}
 
 
 

@@ -11,3 +11,9 @@
     });
 
 })();
+(function(){
+    const nav container = document.querySelector('.container');
+        window.addEventListener('scroll' , function(){
+            nav container.classList.toggle('active' , this.window.scrollY >0);
+        })
+})
