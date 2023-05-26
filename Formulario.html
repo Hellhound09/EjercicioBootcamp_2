@@ -5,8 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
-    <link rel="stylesheet" href="css/estilos.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/formulario.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="shortcut icon" href="img/icono v2.png" type="image/x-icon" />
   </head>
@@ -16,25 +15,25 @@
     <form class="form">
       <h2 class="form__tiitle">Inicia Sesion</h2>
       <p class="form__paragraph">
-        ¿Aún no tienes una cuenta? <a href="#" class="form_lik">Entra aquí</a>
+        ¿Aún no tienes una cuenta? <a href="#" class="form_link">Entra aquí</a>
       </p>
       <div class="form__container">
         <div class="form__group">
-          <input type="text" id="user" class="form__input" placeholder=" " />
-          <label for="user" class="form__label">Correo:</label>
-          <span class="form_line"></span>
+          <input type="text" id="name" class="form__input" placeholder=" " />
+          <label for="name" class="form__label">Nombre:</label>
+          <span class="form__line"></span>
         </div>
         <div class="form__group">
-          <input
-            type="text"
-            id="password"
-            class="form__input"
-            placeholder=" "
-          />
-          <label for="password" class="form__label">Contraseña:</label>
-          <span class="form_line"></span>
+          <input type="text" id="user" class="form__input" placeholder=" " />
+          <label for="user" class="form__label">Usuario:</label>
+          <span class="form__line"></span>
         </div>
-        <input type="submit" class="form_submit" value="Entrar" />
+        <div class="form__group">
+          <input type="text" id="user" class="form__input" placeholder=" " />
+          <label for="password" class="form__label">Contraseña:</label>
+          <span class="form__line"></span>
+        </div>
+        <input type="submit" class="form__submit" value="Entrar" />
       </div>
     </form>
   </body>
